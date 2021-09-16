@@ -1,0 +1,72 @@
+*{
+    font: size 10px;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background:#e907071e;    
+}
+
+.header{
+    width: 100%;    
+    display: flex;
+    padding: 0 150px ;
+    color: #fff;
+    background:#c90808    
+}
+
+.search-form input{
+    margin-top: 30px ;
+    padding: 5px;
+    font-size: 15px; 
+    font-weight: bold;
+    color:#c72525;
+    width: 500px;
+    border-radius: 15px 0 0 15px;
+    height: 20px;
+}
+
+.search-form button{
+    margin-top: 30px ;
+    padding: 5px;
+    font-size: 15px; 
+    font-weight: bold;
+    background: #c72525;
+    color: #fff   
+}
+
+.search-form {
+    margin-left: 40vw;
+    
+}
+
+
+.movieInfo{
+    color: rgb(2, 1, 1);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: .5rem 1rem 1rem;
+    letter-spacing: .5px;
+}
+.card{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 10px 30px;
+} 
+img{
+    width: 100%;
+}
+
+.movieInfo h4, span{
+    font-weight:bold;
+    margin-left: 30px;
+    
+}
+.movieInfo span{
+    margin-right: 30px;
+}
